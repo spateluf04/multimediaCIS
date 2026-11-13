@@ -1,0 +1,207 @@
+[
+  {
+    "id": "R1",
+    "sound_type": "squealing",
+    "certainty": 0.70,
+    "conditions": [
+      {"fact": "sound", "is": "squealing"},
+      {"fact": "timing", "is": "braking"},
+      {"fact": "location", "is": "wheels"}
+    ],
+    "conclusion": {
+      "problem": "Worn brake pads",
+      "part_id": "brake_pads",
+      "urgency": "Medium",
+      "safe": "Yes, but repair soon",
+      "cost": "Low"
+    }
+  },
+  {
+    "id": "R2",
+    "sound_type": "grinding",
+    "certainty": 0.70,
+    "conditions": [
+      {"fact": "sound", "is": "grinding"},
+      {"fact": "timing", "is": "braking"},
+      {"fact": "location", "is": "wheels"}
+    ],
+    "conclusion": {
+      "problem": "Brake pads worn to metal, damaging the rotors",
+      "part_id": "brake_rotors",
+      "urgency": "High",
+      "safe": "No",
+      "cost": "Medium"
+    }
+  },
+  {
+    "id": "R3",
+    "sound_type": "squealing",
+    "certainty": 0.70,
+    "conditions": [
+      {"fact": "sound", "is": "squealing"},
+      {"fact": "timing", "any": ["starting", "accelerating"]},
+      {"fact": "location", "any": ["engine_bay", "engine_top", "engine_lower"]}
+    ],
+    "conclusion": {
+      "problem": "Loose or worn drive belt",
+      "part_id": "drive_belt",
+      "urgency": "Medium",
+      "safe": "Yes, for short trips",
+      "cost": "Low"
+    }
+  },
+  {
+    "id": "R4",
+    "sound_type": "clicking",
+    "certainty": 0.70,
+    "conditions": [
+      {"fact": "sound", "is": "clicking"},
+      {"fact": "timing", "is": "turning"},
+      {"fact": "location", "is": "wheels"}
+    ],
+    "conclusion": {
+      "problem": "Worn CV joint",
+      "part_id": "cv_joint",
+      "urgency": "Medium",
+      "safe": "Yes, but repair soon",
+      "cost": "Medium"
+    }
+  },
+  {
+    "id": "R5",
+    "sound_type": "knocking",
+    "certainty": 0.70,
+    "conditions": [
+      {"fact": "sound", "is": "knocking"},
+      {"fact": "timing", "is": "with_engine_speed"},
+      {"fact": "location", "is": "engine_lower"}
+    ],
+    "conclusion": {
+      "problem": "Rod knock (serious internal engine wear)",
+      "part_id": "connecting_rod_bearing",
+      "urgency": "Critical",
+      "safe": "No",
+      "cost": "High"
+    }
+  },
+  {
+    "id": "R6",
+    "sound_type": "ticking",
+    "certainty": 0.70,
+    "conditions": [
+      {"fact": "sound", "is": "ticking"},
+      {"fact": "timing", "is": "idling"},
+      {"fact": "location", "is": "engine_top"}
+    ],
+    "conclusion": {
+      "problem": "Lifter tick, often from low or old oil",
+      "part_id": "valve_lifter",
+      "urgency": "Low",
+      "safe": "Yes, check the oil first",
+      "cost": "Low to Medium"
+    }
+  },
+  {
+    "id": "R7",
+    "sound_type": "hissing",
+    "certainty": 0.70,
+    "conditions": [
+      {"fact": "sound", "is": "hissing"},
+      {"fact": "location", "any": ["engine_bay", "engine_top", "engine_lower"]},
+      {"fact": "symptom", "any": ["sweet_smell", "running_hot"]}
+    ],
+    "conclusion": {
+      "problem": "Coolant leak",
+      "part_id": "cooling_system",
+      "urgency": "High",
+      "safe": "No",
+      "cost": "Medium"
+    }
+  },
+  {
+    "id": "R8",
+    "sound_type": "hissing",
+    "certainty": 0.70,
+    "conditions": [
+      {"fact": "sound", "is": "hissing"},
+      {"fact": "location", "any": ["engine_bay", "engine_top", "engine_lower"]},
+      {"fact": "symptom", "is": "rough_idle"},
+      {"fact": "symptom", "not": "sweet_smell"}
+    ],
+    "conclusion": {
+      "problem": "Vacuum leak",
+      "part_id": "vacuum_hose",
+      "urgency": "Medium",
+      "safe": "Yes",
+      "cost": "Low"
+    }
+  },
+  {
+    "id": "R9",
+    "sound_type": "clicking",
+    "certainty": 0.70,
+    "conditions": [
+      {"fact": "sound", "is": "clicking"},
+      {"fact": "timing", "is": "starting"},
+      {"fact": "symptom", "is": "wont_start"}
+    ],
+    "conclusion": {
+      "problem": "Weak battery or loose battery connection",
+      "part_id": "battery",
+      "urgency": "Medium",
+      "safe": "Car will not start",
+      "cost": "Low"
+    }
+  },
+  {
+    "id": "R10",
+    "sound_type": "humming",
+    "certainty": 0.70,
+    "conditions": [
+      {"fact": "sound", "is": "humming"},
+      {"fact": "timing", "is": "with_vehicle_speed"},
+      {"fact": "location", "is": "wheels"}
+    ],
+    "conclusion": {
+      "problem": "Failing wheel bearing",
+      "part_id": "wheel_bearing",
+      "urgency": "High",
+      "safe": "Short distances only",
+      "cost": "Medium"
+    }
+  },
+  {
+    "id": "R11",
+    "sound_type": "clunking",
+    "certainty": 0.70,
+    "conditions": [
+      {"fact": "sound", "is": "clunking"},
+      {"fact": "timing", "is": "over_bumps"},
+      {"fact": "location", "is": "underneath"}
+    ],
+    "conclusion": {
+      "problem": "Worn suspension parts",
+      "part_id": "suspension",
+      "urgency": "Medium",
+      "safe": "Yes, but inspect soon",
+      "cost": "Medium"
+    }
+  },
+  {
+    "id": "R12",
+    "sound_type": "whining",
+    "certainty": 0.70,
+    "conditions": [
+      {"fact": "sound", "is": "whining"},
+      {"fact": "timing", "is": "steering"},
+      {"fact": "location", "any": ["engine_bay", "engine_top", "engine_lower"]}
+    ],
+    "conclusion": {
+      "problem": "Low power steering fluid or failing pump",
+      "part_id": "power_steering",
+      "urgency": "Low",
+      "safe": "Yes",
+      "cost": "Low to Medium"
+    }
+  }
+]

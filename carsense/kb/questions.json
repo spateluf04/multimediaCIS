@@ -1,0 +1,59 @@
+[
+  {
+    "id": "sound",
+    "text": "What does the noise sound like?",
+    "select": "single",
+    "options": [
+      {"id": "squealing", "label": "Squealing", "hint": "High-pitched squeal or screech"},
+      {"id": "grinding", "label": "Grinding", "hint": "Harsh metal-on-metal scraping"},
+      {"id": "clicking", "label": "Clicking", "hint": "Quick, sharp clicks"},
+      {"id": "knocking", "label": "Knocking", "hint": "Deep, heavy knock from inside the engine"},
+      {"id": "ticking", "label": "Ticking", "hint": "Light, fast tick like a clock"},
+      {"id": "hissing", "label": "Hissing", "hint": "Air or steam escaping"},
+      {"id": "humming", "label": "Humming", "hint": "Low drone or growl"},
+      {"id": "clunking", "label": "Clunking", "hint": "Dull thud or bang"},
+      {"id": "whining", "label": "Whining", "hint": "Steady high-pitched whine"}
+    ]
+  },
+  {
+    "id": "timing",
+    "text": "When do you hear it? Pick all that apply.",
+    "select": "multi",
+    "options": [
+      {"id": "braking", "label": "When braking"},
+      {"id": "turning", "label": "When the car is turning"},
+      {"id": "steering", "label": "When turning the steering wheel", "hint": "Even while parked"},
+      {"id": "starting", "label": "When starting the car"},
+      {"id": "accelerating", "label": "When accelerating"},
+      {"id": "idling", "label": "While idling"},
+      {"id": "over_bumps", "label": "Going over bumps"},
+      {"id": "with_engine_speed", "label": "Gets faster as the engine revs"},
+      {"id": "with_vehicle_speed", "label": "Gets louder the faster you drive"}
+    ]
+  },
+  {
+    "id": "location",
+    "text": "Where does the noise seem to come from?",
+    "select": "single",
+    "options": [
+      {"id": "wheels", "label": "The wheels"},
+      {"id": "engine_bay", "label": "Under the hood", "hint": "Not sure exactly where"},
+      {"id": "engine_top", "label": "Top of the engine"},
+      {"id": "engine_lower", "label": "Bottom of the engine"},
+      {"id": "underneath", "label": "Underneath the car"}
+    ]
+  },
+  {
+    "id": "symptom",
+    "text": "Have you noticed anything else? Pick all that apply.",
+    "select": "multi",
+    "options": [
+      {"id": "sweet_smell", "label": "Sweet smell", "hint": "Like syrup, often leaking coolant"},
+      {"id": "running_hot", "label": "Engine running hot"},
+      {"id": "rough_idle", "label": "Rough or shaky idle"},
+      {"id": "wont_start", "label": "Engine won't turn over"},
+      {"id": "warning_light", "label": "Dashboard warning light"},
+      {"id": "vibration", "label": "Vibration"}
+    ]
+  }
+]

@@ -20,6 +20,31 @@ Notes:
 - `turning` means the car is turning; `steering` means turning the wheel (including when parked).
 - Display text for every option lives in `kb/questions.json`. Use the IDs above in code, never the display text.
 
+## Questions (`kb/questions.json`)
+
+A list of questions in the order the UI should ask them. `id` is the fact name, and each option `id` is the value sent back in `answers`. `hint` is optional.
+
+```json
+{
+  "id": "sound",
+  "text": "What does the noise sound like?",
+  "select": "single",
+  "options": [
+    {"id": "squealing", "label": "Squealing", "hint": "High-pitched squeal or screech"}
+  ]
+}
+```
+
+## Loading the knowledge base
+
+```python
+from carsense.knowledge.knowledge_base import KnowledgeBase
+
+kb = KnowledgeBase.load("../kb")
+```
+
+`load` checks that the three files agree with each other (rule parts exist, every condition value is a real option, no duplicate IDs) and raises `ValueError` listing every problem it finds. `kb.part(part_id)` returns the `Part` for a diagnosis, and `kb.questions()` is what the UI renders.
+
 ## Building working memory
 
 The controller passes the answers dict straight from the request, plus the audio match if there was a recording:

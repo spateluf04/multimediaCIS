@@ -1,0 +1,14 @@
+[
+  {"id": "brake_pads", "name": "Brake pads", "cost_level": "Low"},
+  {"id": "brake_rotors", "name": "Brake rotors", "cost_level": "Medium"},
+  {"id": "drive_belt", "name": "Drive belt", "cost_level": "Low"},
+  {"id": "cv_joint", "name": "CV joint", "cost_level": "Medium"},
+  {"id": "connecting_rod_bearing", "name": "Connecting rod bearing", "cost_level": "High"},
+  {"id": "valve_lifter", "name": "Valve lifter", "cost_level": "Low to Medium"},
+  {"id": "cooling_system", "name": "Cooling system", "cost_level": "Medium"},
+  {"id": "vacuum_hose", "name": "Vacuum hose", "cost_level": "Low"},
+  {"id": "battery", "name": "Battery and terminals", "cost_level": "Low"},
+  {"id": "wheel_bearing", "name": "Wheel bearing", "cost_level": "Medium"},
+  {"id": "suspension", "name": "Suspension parts", "cost_level": "Medium"},
+  {"id": "power_steering", "name": "Power steering pump and fluid", "cost_level": "Low to Medium"}
+]
