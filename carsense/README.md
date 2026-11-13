@@ -68,6 +68,16 @@ From `backend/` with the venv active:
 python -m pytest -q
 ```
 
+## Report
+
+Edit `report/CarSense_Milestone3_Report.md`, then rebuild the Word file from `backend/` with the venv active:
+
+```
+python ../report/build_report.py
+```
+
+This reruns the tests and timing script, saves the logs to `report/logs/`, and writes `report/CarSense_Milestone3_Report.docx`. Add `--skip-tests` to only rebuild the document. Put figures in `report/figures/` and screenshots in `report/screenshots/`.
+
 ## Module contract
 
 See [docs/core-api.md](docs/core-api.md) for fact names, the rule format, and what the inference engine returns.
