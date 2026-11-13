@@ -4,6 +4,8 @@ __pycache__/
 venv/
 .pytest_cache/
 
+media/clips/raw/
+
 node_modules/
 dist/
 

@@ -1,0 +1,37 @@
+[
+  {"id": "squealing_1", "freesound_id": 456764, "owner": "WavJunction.com", "title": "Car Brakes sqeak screech squeal stop.wav", "start": 7.5, "notes": "brake squeal"},
+  {"id": "squealing_2", "freesound_id": 706273, "owner": "timpet55", "title": "Bus Stopping with squeaky brakes.wav", "start": 7.25, "notes": "brake squeal, school bus"},
+  {"id": "squealing_3", "freesound_id": 608747, "owner": "Star142857", "title": "Car with Belt Squeeling.mp3", "start": 6.75, "notes": "engine belt squeal, car passing"},
+
+  {"id": "grinding_1", "freesound_id": 494321, "owner": "stib", "title": "disc brake.wav", "start": 0, "notes": "disc brake rubbing a worn rotor (bicycle, close mic)"},
+  {"id": "grinding_2", "freesound_id": 322974, "owner": "nissse", "title": "1983 Volvo 245 starter engagement failure + successful start", "start": 17.5, "duration": 5, "notes": "starter grinding against the flywheel"},
+  {"id": "grinding_3", "freesound_id": 336001, "owner": "Ev-Dawg", "title": "Metal Grinding Very Slow", "start": 9.0, "notes": "slow metal on metal grinding"},
+
+  {"id": "clicking_1", "freesound_id": 679204, "owner": "shdwtek", "title": "12 Volt Solenoid Clicks", "start": 1.0, "notes": "12 V solenoid clicking, like a starter solenoid"},
+  {"id": "clicking_2", "freesound_id": 807384, "owner": "tt_runscript", "title": "Contactor/motor overload relay noises", "start": 2.0, "duration": 5, "notes": "relay clicking open and shut"},
+  {"id": "clicking_3", "freesound_id": 629313, "owner": "greatsoundstube", "title": "ignition turn car start.wav", "start": 0, "duration": 4.5, "notes": "ignition key clicks before the engine starts"},
+
+  {"id": "knocking_1", "freesound_id": 535073, "owner": "jlstaples", "title": "engine-knock.aif", "start": 19.5, "notes": "rod knock while revving"},
+  {"id": "knocking_2", "freesound_id": 675725, "owner": "craigsmith", "title": "S41-23 Car bearing knocking; bad auto engine; loop.wav", "start": 2.75, "notes": "engine bearing knock"},
+  {"id": "knocking_3", "freesound_id": 675724, "owner": "craigsmith", "title": "S41-27 Bad car engine bearings clunking.wav", "start": 2.75, "notes": "bad engine bearings"},
+
+  {"id": "ticking_1", "freesound_id": 628539, "owner": "greatsoundstube", "title": "car engine under bonnet.wav", "start": 134.25, "notes": "diesel idle recorded under the hood"},
+  {"id": "ticking_2", "freesound_id": 565597, "owner": "C-V", "title": "Diesel idle 2.wav", "start": 6.5, "notes": "diesel engine idle"},
+  {"id": "ticking_3", "freesound_id": 386792, "owner": "RichieMcMullen", "title": "engine_idle_loop_2.wav", "start": 0.25, "notes": "car engine idle"},
+
+  {"id": "hissing_1", "freesound_id": 615668, "owner": "henrikcederblad", "title": "FOL-gas-leak-01.wav", "start": 2.0, "notes": "steady gas leak hiss"},
+  {"id": "hissing_2", "freesound_id": 855703, "owner": "JohanHauskater", "title": "gas_leak_3_samples", "start": 2.0, "notes": "steady pressure hiss from a soda carbonator"},
+  {"id": "hissing_3", "freesound_id": 457294, "owner": "brunoboselli", "title": "Air (or steam) pressure release", "start": 7.75, "notes": "air pressure release"},
+
+  {"id": "humming_1", "freesound_id": 817389, "owner": "ViveleVent", "title": "Tire noise on the highway / Bruit des pneus sur l'autoroute", "start": 25.75, "notes": "tire and road hum inside the car"},
+  {"id": "humming_2", "freesound_id": 521766, "owner": "gecop", "title": "Highway drive interior", "start": 26.0, "notes": "highway drive, interior"},
+  {"id": "humming_3", "freesound_id": 179121, "owner": "jc144940", "title": "Car Interior Driving Down Road.aiff", "start": 28.5, "notes": "interior at 25 mph on snow tires"},
+
+  {"id": "clunking_1", "freesound_id": 508170, "owner": "Breviceps", "title": "Passing car + road bump", "start": 1.25, "notes": "car over a speed bump"},
+  {"id": "clunking_2", "freesound_id": 837875, "owner": "menfa", "title": "car_speedbump_tacoya_bar_y_taqueria", "start": 0.25, "notes": "car over a speed bump"},
+  {"id": "clunking_3", "freesound_id": 327718, "owner": "buddhafish", "title": "Interior Prius driving rough road w rattles.wav", "start": 0, "notes": "rough road clunks and rattles, interior"},
+
+  {"id": "whining_1", "freesound_id": 340686, "owner": "mickyman5000", "title": "JCB_Hydraulic_Power_Steering.wav", "start": 4.25, "notes": "hydraulic power steering"},
+  {"id": "whining_2", "freesound_id": 784981, "owner": "SoundsofTheMachine", "title": "Motors_Hydraulic_Handycap_Ramp", "start": 7.0, "notes": "hydraulic pump whine"},
+  {"id": "whining_3", "freesound_id": 327721, "owner": "buddhafish", "title": "Interior Prius drive w accelerate.wav", "start": 8.25, "notes": "hybrid drive whine"}
+]

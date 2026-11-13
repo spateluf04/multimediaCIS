@@ -1,0 +1,245 @@
+[
+  {
+    "id": "squealing_1",
+    "sound_type": "squealing",
+    "file": "clips/squealing_1.wav",
+    "owner": "WavJunction.com",
+    "source_url": "https://freesound.org/people/WavJunction.com/sounds/456764/",
+    "license": "CC0 1.0",
+    "notes": "brake squeal"
+  },
+  {
+    "id": "squealing_2",
+    "sound_type": "squealing",
+    "file": "clips/squealing_2.wav",
+    "owner": "timpet55",
+    "source_url": "https://freesound.org/people/timpet55/sounds/706273/",
+    "license": "CC0 1.0",
+    "notes": "brake squeal, school bus"
+  },
+  {
+    "id": "squealing_3",
+    "sound_type": "squealing",
+    "file": "clips/squealing_3.wav",
+    "owner": "Star142857",
+    "source_url": "https://freesound.org/people/Star142857/sounds/608747/",
+    "license": "CC0 1.0",
+    "notes": "engine belt squeal, car passing"
+  },
+  {
+    "id": "grinding_1",
+    "sound_type": "grinding",
+    "file": "clips/grinding_1.wav",
+    "owner": "stib",
+    "source_url": "https://freesound.org/people/stib/sounds/494321/",
+    "license": "CC0 1.0",
+    "notes": "disc brake rubbing a worn rotor (bicycle, close mic)"
+  },
+  {
+    "id": "grinding_2",
+    "sound_type": "grinding",
+    "file": "clips/grinding_2.wav",
+    "owner": "nissse",
+    "source_url": "https://freesound.org/people/nissse/sounds/322974/",
+    "license": "CC0 1.0",
+    "notes": "starter grinding against the flywheel"
+  },
+  {
+    "id": "grinding_3",
+    "sound_type": "grinding",
+    "file": "clips/grinding_3.wav",
+    "owner": "Ev-Dawg",
+    "source_url": "https://freesound.org/people/Ev-Dawg/sounds/336001/",
+    "license": "CC0 1.0",
+    "notes": "slow metal on metal grinding"
+  },
+  {
+    "id": "clicking_1",
+    "sound_type": "clicking",
+    "file": "clips/clicking_1.wav",
+    "owner": "shdwtek",
+    "source_url": "https://freesound.org/people/shdwtek/sounds/679204/",
+    "license": "CC0 1.0",
+    "notes": "12 V solenoid clicking, like a starter solenoid"
+  },
+  {
+    "id": "clicking_2",
+    "sound_type": "clicking",
+    "file": "clips/clicking_2.wav",
+    "owner": "tt_runscript",
+    "source_url": "https://freesound.org/people/tt_runscript/sounds/807384/",
+    "license": "CC0 1.0",
+    "notes": "relay clicking open and shut"
+  },
+  {
+    "id": "clicking_3",
+    "sound_type": "clicking",
+    "file": "clips/clicking_3.wav",
+    "owner": "greatsoundstube",
+    "source_url": "https://freesound.org/people/greatsoundstube/sounds/629313/",
+    "license": "CC0 1.0",
+    "notes": "ignition key clicks before the engine starts"
+  },
+  {
+    "id": "knocking_1",
+    "sound_type": "knocking",
+    "file": "clips/knocking_1.wav",
+    "owner": "jlstaples",
+    "source_url": "https://freesound.org/people/jlstaples/sounds/535073/",
+    "license": "CC0 1.0",
+    "notes": "rod knock while revving"
+  },
+  {
+    "id": "knocking_2",
+    "sound_type": "knocking",
+    "file": "clips/knocking_2.wav",
+    "owner": "craigsmith",
+    "source_url": "https://freesound.org/people/craigsmith/sounds/675725/",
+    "license": "CC0 1.0",
+    "notes": "engine bearing knock"
+  },
+  {
+    "id": "knocking_3",
+    "sound_type": "knocking",
+    "file": "clips/knocking_3.wav",
+    "owner": "craigsmith",
+    "source_url": "https://freesound.org/people/craigsmith/sounds/675724/",
+    "license": "CC0 1.0",
+    "notes": "bad engine bearings"
+  },
+  {
+    "id": "ticking_1",
+    "sound_type": "ticking",
+    "file": "clips/ticking_1.wav",
+    "owner": "greatsoundstube",
+    "source_url": "https://freesound.org/people/greatsoundstube/sounds/628539/",
+    "license": "CC0 1.0",
+    "notes": "diesel idle recorded under the hood"
+  },
+  {
+    "id": "ticking_2",
+    "sound_type": "ticking",
+    "file": "clips/ticking_2.wav",
+    "owner": "C-V",
+    "source_url": "https://freesound.org/people/C-V/sounds/565597/",
+    "license": "CC0 1.0",
+    "notes": "diesel engine idle"
+  },
+  {
+    "id": "ticking_3",
+    "sound_type": "ticking",
+    "file": "clips/ticking_3.wav",
+    "owner": "RichieMcMullen",
+    "source_url": "https://freesound.org/people/RichieMcMullen/sounds/386792/",
+    "license": "CC0 1.0",
+    "notes": "car engine idle"
+  },
+  {
+    "id": "hissing_1",
+    "sound_type": "hissing",
+    "file": "clips/hissing_1.wav",
+    "owner": "henrikcederblad",
+    "source_url": "https://freesound.org/people/henrikcederblad/sounds/615668/",
+    "license": "CC0 1.0",
+    "notes": "steady gas leak hiss"
+  },
+  {
+    "id": "hissing_2",
+    "sound_type": "hissing",
+    "file": "clips/hissing_2.wav",
+    "owner": "JohanHauskater",
+    "source_url": "https://freesound.org/people/JohanHauskater/sounds/855703/",
+    "license": "CC0 1.0",
+    "notes": "steady pressure hiss from a soda carbonator"
+  },
+  {
+    "id": "hissing_3",
+    "sound_type": "hissing",
+    "file": "clips/hissing_3.wav",
+    "owner": "brunoboselli",
+    "source_url": "https://freesound.org/people/brunoboselli/sounds/457294/",
+    "license": "CC0 1.0",
+    "notes": "air pressure release"
+  },
+  {
+    "id": "humming_1",
+    "sound_type": "humming",
+    "file": "clips/humming_1.wav",
+    "owner": "ViveleVent",
+    "source_url": "https://freesound.org/people/ViveleVent/sounds/817389/",
+    "license": "CC0 1.0",
+    "notes": "tire and road hum inside the car"
+  },
+  {
+    "id": "humming_2",
+    "sound_type": "humming",
+    "file": "clips/humming_2.wav",
+    "owner": "gecop",
+    "source_url": "https://freesound.org/people/gecop/sounds/521766/",
+    "license": "CC0 1.0",
+    "notes": "highway drive, interior"
+  },
+  {
+    "id": "humming_3",
+    "sound_type": "humming",
+    "file": "clips/humming_3.wav",
+    "owner": "jc144940",
+    "source_url": "https://freesound.org/people/jc144940/sounds/179121/",
+    "license": "CC0 1.0",
+    "notes": "interior at 25 mph on snow tires"
+  },
+  {
+    "id": "clunking_1",
+    "sound_type": "clunking",
+    "file": "clips/clunking_1.wav",
+    "owner": "Breviceps",
+    "source_url": "https://freesound.org/people/Breviceps/sounds/508170/",
+    "license": "CC0 1.0",
+    "notes": "car over a speed bump"
+  },
+  {
+    "id": "clunking_2",
+    "sound_type": "clunking",
+    "file": "clips/clunking_2.wav",
+    "owner": "menfa",
+    "source_url": "https://freesound.org/people/menfa/sounds/837875/",
+    "license": "CC0 1.0",
+    "notes": "car over a speed bump"
+  },
+  {
+    "id": "clunking_3",
+    "sound_type": "clunking",
+    "file": "clips/clunking_3.wav",
+    "owner": "buddhafish",
+    "source_url": "https://freesound.org/people/buddhafish/sounds/327718/",
+    "license": "CC0 1.0",
+    "notes": "rough road clunks and rattles, interior"
+  },
+  {
+    "id": "whining_1",
+    "sound_type": "whining",
+    "file": "clips/whining_1.wav",
+    "owner": "mickyman5000",
+    "source_url": "https://freesound.org/people/mickyman5000/sounds/340686/",
+    "license": "CC0 1.0",
+    "notes": "hydraulic power steering"
+  },
+  {
+    "id": "whining_2",
+    "sound_type": "whining",
+    "file": "clips/whining_2.wav",
+    "owner": "SoundsofTheMachine",
+    "source_url": "https://freesound.org/people/SoundsofTheMachine/sounds/784981/",
+    "license": "CC0 1.0",
+    "notes": "hydraulic pump whine"
+  },
+  {
+    "id": "whining_3",
+    "sound_type": "whining",
+    "file": "clips/whining_3.wav",
+    "owner": "buddhafish",
+    "source_url": "https://freesound.org/people/buddhafish/sounds/327721/",
+    "license": "CC0 1.0",
+    "notes": "hybrid drive whine"
+  }
+]
