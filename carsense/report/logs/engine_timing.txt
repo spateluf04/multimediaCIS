@@ -1,0 +1,13 @@
+CarSense inference engine timing, 2026-11-12 20:30
+Python 3.11.9, Windows 10, AMD64 Family 23 Model 160 Stepping 0, AuthenticAMD
+12 rules, 100 runs per scenario (each run builds working memory and calls run())
+
+Scenario                      Avg ms per run
+R1 fires, audio agrees                0.1638
+R5 fires, stop driving                0.1302
+R7 fires, R8 partial                  0.1431
+No match, uncertain                   0.1292
+Empty answers                         0.1056
+Average                               0.1344
+
+Knowledge base load and validate: 2.83 ms

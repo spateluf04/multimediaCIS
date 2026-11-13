@@ -114,7 +114,7 @@ The engine does one forward pass: it checks every rule against the facts, applie
 
 - Fired rule: confidence is the rule's `certainty`.
 - Partial match: `match_ratio * certainty * 0.6`, kept only if at least 0.30.
-- M2: if the audio match agrees with the rule's `sound_type`, add `0.25 * similarity`, capped at 0.95. If it disagrees with the user's sound, a note is added and confidence is unchanged.
+- M2: if the audio match agrees with the rule's `sound_type`, add `0.25 * similarity`, capped at 0.95. If it disagrees with the user's sound, a note is added to each result and confidence is unchanged. The audio match only adjusts results; on its own it never produces a diagnosis.
 - Ties are broken by urgency (Critical, High, Medium, Low).
 - M1: any Critical result puts `STOP_DRIVING` first in `warnings`.
 - M3: if nothing fired, or the top confidence is under 0.50, `uncertain` is true and `SEE_MECHANIC` is added.
